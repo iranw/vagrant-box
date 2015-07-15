@@ -8,6 +8,7 @@
 
 ###### 2、执行命令引入镜像包
 ```
+//vagrant box add 命名 box文件目录
 #vagrant box add centos64 opscode_centos-6.5_chef-provisionerless.box
 #vagrant box list
 #cd E:\Virtual-box\centos-dev(需要建立虚拟机的空目录)
