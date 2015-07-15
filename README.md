@@ -3,8 +3,8 @@
 
 
 ###### 1、下载box镜像包
-地址：[http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5_chef-provisionerless.box]http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5_chef-provisionerless.box
-包搜索:[https://atlas.hashicorp.com/boxes/search]https://atlas.hashicorp.com/boxes/search
+地址：[http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5_chef-provisionerless.box](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5_chef-provisionerless.box)
+包搜索:[https://atlas.hashicorp.com/boxes/search](https://atlas.hashicorp.com/boxes/search)
 
 ###### 2、执行命令引入镜像包
 ```
