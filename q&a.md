@@ -1,7 +1,7 @@
-### vagrant 常见问题集合[已解决]
+# vagrant 常见问题集合[已解决]
 
 
-###### vagrant启动报错`The following SSH command responded with a non-zero exit status.`
+### vagrant启动报错`The following SSH command responded with a non-zero exit status.`
 ```
 E:\Virtual-box\mysql_master>vagrant up
 Bringing machine 'default' up with 'virtualbox' provider...
@@ -49,7 +49,7 @@ $exit               #退出终端
 
 
 
-###### vagrant设置公网ip
+### vagrant设置公网ip
 Vagrantfile文件修改
 ```
 config.vm.network "public_network", ip: "172.16.1.201",:netmask => "255.255.0.0"
