@@ -46,3 +46,12 @@ $sudo rm -f /etc/udev/rules.d/70-persistent-net.rules
 $exit               #退出终端
 #vagrant reload     #重启虚拟机
 ```
+
+
+
+###### vagrant设置公网ip
+Vagrantfile文件修改
+```
+config.vm.network "public_network", ip: "172.16.1.201",:netmask => "255.255.0.0"
+default_router = "172.16.0.1"
+```
